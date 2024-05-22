@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canavar Oyunu</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <section class="row">
+        <div class="small-6 columns">
+          <h1 class="text-center">SEN</h1>
+          <div class="healthbar" id="player-health">
+            <div class="healthbar-inner" id="player-health-inner">
+              <div class="healthbar-text" id="player-health-text">100%</div>
+            </div>
+          </div>
+        </div>
+        <div class="small-6 columns">
+          <h1 class="text-center">CANAVAR</h1>
+          <div class="healthbar" id="monster-health">
+            <div class="healthbar-inner" id="monster-health-inner">
+              <div class="healthbar-text" id="monster-health-text">100%</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="row controls">
+        <div class="small-12 columns">
+          <button id="start-game">YENİ OYUN</button>
+        </div>
+      </section>
+      <section class="row controls" id="controls" style="display: none">
+        <div class="small-12 columns">
+          <button id="attack">SALDIRI</button>
+          <button id="special-attack">ÖZEL SALDIRI</button>
+          <button id="heal">İLK YARDIM</button>
+          <button id="give-up">PES ET!</button>
+        </div>
+      </section>
+      <section class="row log">
+        <div class="small-12 columns" style="width: 100%";>
+          <ul id="log-list">
+            <li></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
