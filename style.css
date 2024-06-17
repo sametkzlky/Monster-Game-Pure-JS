@@ -1,99 +1,122 @@
 .text-center {
-    text-align: center;
+  text-align: center;
 }
-#container{
-    margin-left: 150px;
-    margin-right: 150px;
+
+#container {
+  margin-left: 150px;
+  margin-right: 150px;
 }
-.row{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
 }
-.small-6{
-   width:50%;
+
+.small-6 {
+  width: 50%;
 }
+
 .healthbar-inner {
-    background-color: green; 
-    height: 100%;
-    width: 100%;
-    color: white;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: width 0.5s ease-in-out; 
+  background-color: green;
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 0.5s ease-in-out;
 }
+
 .healthbar {
-    border: 1px solid #666;
-    height: 30px;
-    width: 100%;
-    margin-bottom: 10px;
+  border: 1px solid #666;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 10px;
 }
-.controls, .log {
-    margin-top: 30px;
-    text-align: center;
-    padding: 10px;
-    border: 1px solid #ccc;
-    box-shadow: 0px 3px 6px #ccc;
+
+.controls,
+.log {
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 3px 6px #ccc;
 }
+
 .turn {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-weight: bold;
-    font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 22px;
 }
+
 .log ul {
-    list-style: none;
-    font-weight: bold;
-    text-transform: uppercase;
+  list-style: none;
+  font-weight: bold;
+  text-transform: uppercase;
 }
+
 .log ul li {
-    margin: 5px;
+  margin: 5px;
 }
+
 .log ul .player-turn {
-    color: blue;
-    background-color: #e4e8ff;
+  color: blue;
+  background-color: #e4e8ff;
 }
+
 .log ul .monster-turn {
-    color: red;
-    background-color: #ffc0c1;
+  color: red;
+  background-color: #ffc0c1;
 }
+
 button {
-    font-size: 20px;
-    background-color: #eee;
-    padding: 12px;
-    box-shadow: 0 1px 1px black;
-    margin: 10px;
-    cursor: pointer;
+  font-size: 20px;
+  background-color: #eee;
+  padding: 12px;
+  box-shadow: 0 1px 1px black;
+  margin: 10px;
+  cursor: pointer;
 }
+
 #start-game {
-    background-color: #aaffb0;
+  background-color: #aaffb0;
 }
+
 #start-game:hover {
-    background-color: #76ff7e;
+  background-color: #76ff7e;
 }
+
 #attack {
-    background-color: #ff7367;
+  background-color: #ff7367;
 }
+
 #attack:hover {
-    background-color: #ff3f43;
+  background-color: #ff3f43;
 }
+
 #special-attack {
-    background-color: #ffaf4f;
+  background-color: #ffaf4f;
 }
+
 #special-attack:hover {
-    background-color: #ff9a2b;
+  background-color: #ff9a2b;
 }
+
 #heal {
-    background-color: #aaffb0;
+  background-color: #aaffb0;
 }
+
 #heal:hover {
-    background-color: #76ff7e;
+  background-color: #76ff7e;
 }
+
 #give-up {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
+
 #give-up:hover {
-    background-color: #c7c7c7;
+  background-color: #c7c7c7;
 }
